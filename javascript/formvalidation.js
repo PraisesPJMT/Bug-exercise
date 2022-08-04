@@ -1,7 +1,7 @@
-const contactForm = document.getElementById('$contact-form');
-const nameInput = document.getElementById('$name');
-const emailInput = document.getElementById('$email');
-const messageInput = document.getElementById('$message');
+const contactForm = document.getElementById('#contact-form');
+const nameInput = document.getElementById('#name');
+const emailInput = document.getElementById('#email');
+const messageInput = document.getElementById('#message');
 const errorMessage = document.querySelector('.error-message');
 const storedFormData = JSON.parse(localStorage.getItem('formData'));
 
